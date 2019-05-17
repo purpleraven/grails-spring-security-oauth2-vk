@@ -8,6 +8,12 @@ Installation
 ------------
 Add the following dependencies in `build.gradle`
 ```
+repositories {
+  ...
+  maven { url "http://dl.bintray.com/purpleraven/plugins" }
+  ...
+}
+
 dependencies {
 ...
     compile 'org.grails.plugins:spring-security-oauth2:1.1+'
